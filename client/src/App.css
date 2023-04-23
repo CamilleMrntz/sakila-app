@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  margin-block: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.movies_filter {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-block: 10px;
+}
+
+input {
+  width: 40px;
+}
+
+.btn {
+  background-color: rgba(78, 66, 157, 0.844);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.btn:hover {
+  background-color: rgba(78, 66, 157, 0.657);
+}
+
+.btn:active {
+  background-color: rgb(78, 66, 157);
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+  border: 2px rgba(152, 152, 152, 0.455) solid;
+  border-radius: 5px;
+  padding: 15px;
+  margin-block: 10px;
+}
+
+.movies:hover {
+  background-color: rgba(128, 128, 128, 0.437);
+}
+
+.moviesList_section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-block: 5px;
+}
+
+.moviesList_section h3 {
+  margin-left: 10px;
+}
+
+.moviesList_section p {
+  margin-right: 5px;
+}
+
+.category {
+  padding: 4px 12px;
+  border-radius: 5px;
+  border: 1px solid rgba(152, 152, 152, 0.455);
+  font-size: 12px;
+}
+
+.movies_info {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.movies_info_label {
+  /* color: rgb(182, 176, 176); */
+  color: rgba(78, 66, 157, 0.579);
+  font-weight: 500;
+}
