@@ -15,7 +15,7 @@ function App() {
 
   function getMovies() {
     Axios.get(
-      `http://sakila.herokuapp.com/movies/${pageLength}/${pageNumber}/${order}/${ascDesc}`
+      `https://sakila.herokuapp.com/movies/${pageLength}/${pageNumber}/${order}/${ascDesc}`
     ).then((response) => {
       setMovieList(response.data);
     });
